@@ -11,7 +11,6 @@ class numeros_repetidos(Lista):
             if clave == valor:
                 contador_numeros_repetidos += 1
         sumatorio += clave * contador_numeros_repetidos
-        print(contador_numeros_repetidos)
         # restablezco el valor a 0 para que no se sume el contador al valor anterior
         contador_numeros_repetidos = 0
     print(sumatorio)
