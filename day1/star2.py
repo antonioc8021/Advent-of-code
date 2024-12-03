@@ -1,1 +1,1 @@
-# todo: mirar el todo de ./star1.py
+from list import Lista
